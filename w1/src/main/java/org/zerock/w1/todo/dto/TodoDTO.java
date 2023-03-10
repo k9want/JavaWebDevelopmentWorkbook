@@ -1,6 +1,6 @@
 package org.zerock.w1.todo.dto;
 
-import java.time.LocalDate
+import java.time.LocalDate;
 
 public class TodoDTO {
 
