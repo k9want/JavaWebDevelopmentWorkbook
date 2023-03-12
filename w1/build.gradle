@@ -26,6 +26,9 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    //JSTL을 이용하기 위한 의존성 라이브러리 추가
+    implementation group: 'jstl', name: 'jstl', version: '1.2'
 }
 
 test {
